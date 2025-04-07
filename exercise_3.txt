@@ -1,0 +1,13 @@
+Deluppgifter:
+Antag att vi ska bygga ett Python-program för att ta emot inlämnade uppgifter från studenter. Hur bygger man en webb-lösning med inloggning och sådant?
+Antag att vi ska bygga ett Python-program för att rätta de inlämnade uppgifterna. Vilka krav behöver man ställa på ett sådant system, så att det blir rättssäkert, rättvist, pålitligt, och konsekvent?
+Ge förslag på hur man skulle kunna uppfylla (så långt möjligt) de krav som ni listade ovan. Hur kan man åstadkomma rättvis och pålitlig rättning?
+Gör en riskanalys kring potentiella bias, möjligheter att lura programmet, och andra problem
+
+Reglerna är desamma som för tidigare homework:
+Har ni svarat på frågan / frågorna för en deluppgift med minst en mening (som Chat tycker är rätt) så får ni 1 Mario coin för den deluppgiften
+Vid inlämningen är det nödvändigt att ni tydligt visar vilken del som besvaras var i ert svar.
+Vid inlämningen MÅSTE ni ange hur många Mario coins ni tycker att ni ska få.
+Inlämningen kan SENAST ske 22:00 dagen för nästa lektion, d.v.s. Måndag 7/4 för homework 2.
+Denna gång krävs svar via txt-fil. ALL information måste ingå i txt-filen ni lämnar in. Denna txt-file blir ensam informationsbärare av er inlämning.
+
