@@ -11,3 +11,51 @@ Vid inlämningen MÅSTE ni ange hur många Mario coins ni tycker att ni ska få.
 Inlämningen kan SENAST ske 22:00 dagen för nästa lektion, d.v.s. Måndag 7/4 för homework 2.
 Denna gång krävs svar via txt-fil. ALL information måste ingå i txt-filen ni lämnar in. Denna txt-file blir ensam informationsbärare av er inlämning.
 
+### 1. Webb-lösning med inloggning för studentinlämningar
+
+För en webbplattform för studentinlämningar kan du använda ett Python-ramverk som Flask eller Django med följande komponenter:
+- Flask/Django som backend med SQLAlchemy/Django ORM för databas
+- Autentiseringssystem (Flask-Login/Django Auth) för säker inloggning
+- Frontend med HTML/CSS/JavaScript eller React/Vue
+- HTTPS för säker dataöverföring
+- Molnbaserad lagring för inlämningsfiler
+
+### 2. Krav för ett rättssäkert rättningssystem
+
+- Transparens: tydliga bedömningskriterier och rättningsprocess
+- Spårbarhet: loggning av alla bedömningar och ändringar
+- Konsistens: samma uppgift bedöms likadant oavsett student
+- Objektivitet: eliminering av personliga bias i rättningen
+- Felsäkerhet: säkerhetskopior och felhantering
+- Verifierbarhet: möjlighet att validera programmets beslut
+- Återkoppling: tydlig förklaring av bedömningen
+- Överklagningsmöjlighet: process för att ifrågasätta bedömning
+
+### 3. Hur uppfylla kraven för rättvis rättning
+
+- Automatiserade testfall som är identiska för alla inlämningar
+- Anonymisering av inlämningar under rättningsprocessen
+- Kombinerad automatisk och manuell granskning
+- Standardiserade bedömningsmallar med poängkriterier
+- Flera granskare för samma uppgift för ökad tillförlitlighet
+- Kontinuerlig kalibrering av rättningssystemet
+- Möjlighet för studenter att se testfall och förväntade resultat
+- Regelbunden revision av rättningsalgoritmer
+
+### 4. Riskanalys
+
+**Bias-risker:**
+- Algoritmisk favorisering av specifika programmeringsstilar
+- Omedveten preferens för vissa lösningsmetoder
+- Kulturella/språkliga bias i textbaserade svar
+
+**Manipulationsrisker:**
+- Studenter som optimerar för kända testfall utan djupare förståelse
+- Plagiering och koddelning mellan studenter
+- Utnyttjande av rättningsalgoritmers begränsningar
+
+**Tekniska risker:**
+- Falska positiva/negativa vid automatisk rättning
+- Otillräckligt robusta testfall som missar kantfall
+- Systemfel som påverkar vissa studenter men inte andra
+- Datasäkerhetsrisker och integritetsproblem

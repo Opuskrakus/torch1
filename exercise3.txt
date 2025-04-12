@@ -1,0 +1,9 @@
+4/4 Mario coins
+1.
+Jag hade använt hade nog använt FastAPI eftersom att vi byggt med det i tidigare kurser och lagt till OAuth för authentisering, alternativt testat Django som ska ha det inbyggt. Man behöver en databas, ett inloggningssystem och en sida där studenter kan ladda upp filer. Hade nog löst inlämningen med någon Molnbaseradlösning, typ google drive.
+2.
+Rättningen måste vara tekniskt stabil, det vore jobbigt om en inlämning skulle försvinna. Studenterna måste förstå hur deras inlämning rättas, bedömningskriterier och poängsättning ska vara tydliga. Samma typ av fel eller lösning ska bedömas likadant oavsett vem som har lämnat in. Det ska inte vara olika bedömningar från gång till gång. Viktigt att logga alla bedömningar, ändringar och kommentarer så att man kan följa vad som hänt.
+3.
+Logga alla rättningar och ändringar i systemet så att det går att följa vad som hänt. Skapa en mall där varje delmoment har ett bestämt antal poäng. Det gör det lättare att förklara rättningen och säkerställer att samma typ av lösning bedöms på samma sätt varje gång. Ta stickprov och be studenterna återkoppla om de upplever en orättvis bedömning.
+4.
+Folk kan försöka lura systemet, typ genom att skriva kod som bara klarar testfallen. Rättningen kan ha bias. Systemet kan krascha. Det kan finnas buggar. Viktigt att testa det ordentligt.
